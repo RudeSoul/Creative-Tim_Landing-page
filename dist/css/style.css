@@ -643,6 +643,12 @@ p {
   padding-bottom: 79px;
 }
 
+@media (min-width: 768px) {
+  .main-body {
+    padding-bottom: 82px;
+  }
+}
+
 .body-title {
   margin-top: 94px;
 }
@@ -663,12 +669,26 @@ p {
 }
 
 .body-paragraph p {
-  font-family: "Roboto", sans-serif;
-  font-weight: lighter;
+  font-style: normal;
+  font-weight: 300;
   font-size: 17.5px;
-  line-height: 23px;
+  line-height: 21px;
   text-align: center;
   color: #999999;
+}
+
+@media (min-width: 768px) {
+  .body-paragraph {
+    margin-left: 13px;
+    margin-right: 12px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .body-paragraph {
+    margin-left: 331px;
+    margin-right: 326px;
+  }
 }
 
 .features__first {
@@ -694,6 +714,12 @@ p {
      object-fit: cover;
 }
 
+@media (min-width: 768px) {
+  .features__img {
+    margin-left: 342px;
+  }
+}
+
 .features__title {
   margin-top: 31px;
 }
@@ -709,8 +735,7 @@ p {
 
 .features__paragraph {
   margin-top: 18px;
-  margin-left: 41px;
-  margin-right: 36px;
+  text-align: center;
 }
 
 .features__paragraph p {
@@ -720,7 +745,6 @@ p {
   font-weight: 300;
   font-size: 13.9px;
   line-height: 16px;
-  text-align: center;
   color: #999999;
 }
 
@@ -729,8 +753,20 @@ p {
   padding-right: 16px;
 }
 
+@media (min-width: 768px) {
+  .our-team__members {
+    padding-left: 19px;
+  }
+}
+
 .our-team__title {
   margin-top: 207px;
+}
+
+@media (min-width: 768px) {
+  .our-team__title {
+    margin-top: 208px;
+  }
 }
 
 .our-team__title h2 {
@@ -750,6 +786,12 @@ p {
   margin-top: 19px;
 }
 
+@media (min-width: 768px) {
+  .our-team__members--2 {
+    margin-top: 20px;
+  }
+}
+
 .our-team__members--3 {
   margin-top: 21px;
 }
@@ -759,6 +801,12 @@ p {
   width: 170px;
   height: 170px;
   margin-left: 99px;
+}
+
+@media (min-width: 768px) {
+  .our-team__profile-img {
+    margin-left: 270px;
+  }
 }
 
 .our-team__profile-img img {
@@ -799,6 +847,12 @@ p {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  .our-team__description {
+    margin-top: 35px;
+  }
+}
+
 .our-team__description p {
   font-family: Roboto;
   font-style: normal;
@@ -812,6 +866,12 @@ p {
 .our-team__social-link {
   margin-top: 48px;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .our-team__social-link {
+    margin-top: 22px;
+  }
 }
 
 .our-team__social-link ul li {
@@ -854,6 +914,12 @@ p {
   line-height: 24px;
   text-align: center;
   color: #999999;
+}
+
+@media (min-width: 768px) {
+  .register-work p {
+    margin-top: 38px;
+  }
 }
 
 .form {
@@ -904,6 +970,12 @@ p {
   padding: 13px 30px;
 }
 
+@media (min-width: 768px) {
+  .form .btn {
+    margin-top: 25px;
+  }
+}
+
 .form .btn span {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -919,6 +991,13 @@ p {
   margin-left: 30px;
   color: black;
   bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    top: 4116px;
+    margin-left: 39px;
+  }
 }
 
 .footer ul {
@@ -952,6 +1031,13 @@ p {
   line-height: 11px;
   text-align: center;
   color: #000000;
+}
+
+@media (min-width: 768px) {
+  .footer__content {
+    margin-top: 30px;
+    margin-left: 270px;
+  }
 }
 
 .col-s-12 {

@@ -9,6 +9,10 @@
     border-radius: 6px;
     padding-bottom: 79px;
 
+    @include mq(md) {
+        padding-bottom: 82px;
+    }
+
 }
 
 .body-title {
@@ -34,13 +38,25 @@
     margin-right: 16px;
 
     p {
-        font-family: $font-family--default;
-        font-weight: lighter;
+        font-style: normal;
+        font-weight: 300;
         font-size: 17.5px;
-        line-height: 23px;
-        text-align: center;
+        line-height: 21px;
 
+        text-align: center;
         color: #999999;
+    }
+
+    @include mq(md) {
+
+        margin-left: 13px;
+        margin-right: 12px;
+    }
+
+    @include mq(xl) {
+
+        margin-left: 331px;
+        margin-right: 326px;
     }
 
 }
@@ -51,6 +67,8 @@
 .features__first {
 
     margin-top: 162px;
+
+
 }
 
 .features__second {
@@ -72,6 +90,10 @@
         object-fit: cover;
 
     }
+
+    @include mq(md) {
+        margin-left: 342px;
+    }
 }
 
 .features__title {
@@ -89,8 +111,7 @@
 
 .features__paragraph {
     margin-top: 18px;
-    margin-left: 41px;
-    margin-right: 36px;
+    text-align: center;
 
     p {
         width: 328px;
@@ -99,7 +120,6 @@
         font-weight: 300;
         font-size: 13.9px;
         line-height: 16px;
-        text-align: center;
 
         color: #999999;
     }

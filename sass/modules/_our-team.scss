@@ -1,11 +1,18 @@
 .our-team__members {
     padding-left: 17px;
     padding-right: 16px;
+
+    @include mq(md) {
+        padding-left: 19px;
+    }
 }
 
 .our-team__title {
     margin-top: 207px;
-    // margin-left: 68px;
+
+    @include mq(md) {
+        margin-top: 208px;
+    }
 
     h2 {
         font-family: $font-family--default;
@@ -26,6 +33,10 @@
 
 .our-team__members--2 {
     margin-top: 19px;
+
+    @include mq(md) {
+        margin-top: 20px;
+    }
 }
 
 .our-team__members--3 {
@@ -38,6 +49,12 @@
     height: 170px;
 
     margin-left: 99px;
+
+    @include mq(md) {
+        margin-left: 270px;
+    }
+
+
 
 
     img {
@@ -82,6 +99,10 @@
     margin-top: 34px;
     text-align: center;
 
+    @include mq(md) {
+        margin-top: 35px;
+    }
+
     p {
         font-family: Roboto;
         font-style: normal;
@@ -97,6 +118,10 @@
 .our-team__social-link {
     margin-top: 48px;
     text-align: center;
+
+    @include mq(md) {
+        margin-top: 22px;
+    }
 
     ul {
         li {
