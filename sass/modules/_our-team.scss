@@ -5,12 +5,17 @@
     @include mq(md) {
         padding-left: 19px;
     }
+
 }
 
 .our-team__title {
     margin-top: 207px;
 
     @include mq(md) {
+        margin-top: 208px;
+    }
+
+    @include mq(xl) {
         margin-top: 208px;
     }
 
@@ -29,6 +34,19 @@
 
 .our-team__members--1 {
     margin-top: 86px;
+
+    @include mq(xl) {
+        float: left;
+        margin-left: 115px;
+
+        .our-team__profile-img {
+            margin: 0 auto;
+        }
+
+        .our-team__description {
+            width: 325px;
+        }
+    }
 }
 
 .our-team__members--2 {
@@ -37,10 +55,38 @@
     @include mq(md) {
         margin-top: 20px;
     }
+
+    @include mq(xl) {
+        float: left;
+        margin-top: 86px;
+        margin-left: 38px;
+
+        .our-team__profile-img {
+            margin: 0 auto;
+        }
+
+        .our-team__description {
+            width: 325px;
+        }
+    }
 }
 
 .our-team__members--3 {
     margin-top: 21px;
+
+    @include mq(xl) {
+        float: left;
+        margin-top: 86px;
+        margin-left: 38px;
+
+        .our-team__profile-img {
+            margin: 0 auto;
+        }
+
+        .our-team__description {
+            width: 325px;
+        }
+    }
 }
 
 .our-team__profile-img {

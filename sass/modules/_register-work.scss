@@ -3,6 +3,11 @@
     padding-left: 15px;
     padding-right: 12px;
 
+    @include mq(xl) {
+        margin-left: 305px;
+        margin-right: 302px;
+    }
+
 
     h2 {
         font-family: $font-family--default;

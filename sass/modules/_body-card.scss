@@ -13,10 +13,18 @@
         padding-bottom: 82px;
     }
 
+    @include mq(xl) {
+        padding-bottom: 80px;
+    }
+
 }
 
 .body-title {
     margin-top: 94px;
+
+    @include mq(xl) {
+        margin-top: 95px;
+    }
 
     h2 {
 
@@ -25,6 +33,7 @@
         font-style: normal;
         font-weight: normal;
         font-size: 36.4px;
+        line-height: 43px;
         color: #3C4858;
         text-align: center;
     }
@@ -68,15 +77,48 @@
 
     margin-top: 162px;
 
+    @include mq(xl) {
+        float: left;
+        margin-top: 161px;
+        margin-left: 128px;
+
+        .features__img {
+            margin: 0 auto;
+        }
+    }
+
+
+
 
 }
 
 .features__second {
     margin-top: 108px;
+
+    @include mq(xl) {
+        float: left;
+        margin-top: 161px;
+        margin-left: 62px;
+
+        .features__img {
+            margin: 0 auto;
+        }
+    }
 }
 
 .features__third {
     margin-top: 110px;
+
+    @include mq(xl) {
+        float: left;
+        margin-top: 161px;
+        margin-left: 62px;
+
+        .features__img {
+            margin: 0 auto;
+        }
+
+    }
 }
 
 
@@ -94,7 +136,9 @@
     @include mq(md) {
         margin-left: 342px;
     }
+
 }
+
 
 .features__title {
     margin-top: 31px;
@@ -122,6 +166,11 @@
         line-height: 16px;
 
         color: #999999;
+
+        @include mq(xl) {
+            font-size: 14px;
+            line-height: 16px;
+        }
     }
 }
 
