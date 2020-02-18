@@ -12,11 +12,13 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #cccccc;
 }
 
 ul,
 li {
     list-style: none;
+    display: inline-block;
 }
 
 a {

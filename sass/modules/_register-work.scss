@@ -1,0 +1,96 @@
+.register-work {
+    padding-top: 185px;
+    padding-left: 15px;
+    padding-right: 12px;
+
+
+    h2 {
+        font-family: $font-family--default;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36.4px;
+        line-height: 43px;
+        text-align: center;
+
+
+        color: #3C4858;
+    }
+
+    p {
+        margin-top: 37px;
+
+        font-family: $font-family--default;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18.2px;
+        line-height: 24px;
+        text-align: center;
+
+        color: #999999;
+    }
+}
+
+.form {
+    padding-top: 47px;
+
+    padding-left: 15px;
+    padding-right: 12px;
+
+    .name {
+        font-family: $font-family--default;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+
+        color: #999999;
+
+    }
+
+    .write-here {
+        margin-top: 7px;
+        width: 100%;
+        height: 1px;
+
+        background: #D2D2D2;
+    }
+
+    .input-2 {
+        margin-top: 52px;
+    }
+
+    .input-3 {
+        margin-top: 51px;
+
+        .write-here {
+            margin-top: 62px;
+        }
+    }
+
+    .btn {
+        text-align: center;
+        width: 148px;
+        margin: 0 auto;
+        margin-top: 24px;
+        text-transform: uppercase;
+
+        background: #9C27B0;
+        box-shadow: 0px 2px 2px rgba(156, 39, 176, 0.2);
+        border-radius: 3px;
+
+        border: none;
+
+        padding: 13px 30px;
+
+        span {
+            font-family: $font-family--default;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+
+            color: #FFFFFF;
+
+        }
+    }
+}
