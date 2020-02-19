@@ -74,15 +74,23 @@
 // features scss 
 
 // .features {
+
+.features {
+    @include mq(xl) {
+        width: 1108px;
+        margin: 0 auto;
+    }
+}
+
 .features__first {
 
     margin-top: 162px;
 
     @include mq(xl) {
         float: left;
-        margin-top: 161px;
-        margin-left: 128px;
+        // margin-left: 128px;
         // margin: 0 auto;
+        margin-top: 161px;
 
         .features__img {
             margin: 0 auto;
