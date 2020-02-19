@@ -4,8 +4,8 @@
     top: 610px;
     left: 10px;
     right: 10px;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);
+    background: $primary-color;
+    box-shadow: 0px 2px 24px rgba($background-color, 0.14), 0px 8px 10px rgba($background-color, 0.2);
     border-radius: 6px;
     padding-bottom: 79px;
 
@@ -34,7 +34,7 @@
         font-weight: normal;
         font-size: 36.4px;
         line-height: 43px;
-        color: #3C4858;
+        color: $h-color;
         text-align: center;
     }
 
@@ -53,7 +53,7 @@
         line-height: 21px;
 
         text-align: center;
-        color: #999999;
+        color: $color-text--secondary;
     }
 
     @include mq(md) {
@@ -149,7 +149,7 @@
         font-size: 20px;
         line-height: 23px;
         text-align: center;
-        color: #3C4858;
+        color: $h-color;
     }
 }
 
@@ -165,7 +165,7 @@
         font-size: 13.9px;
         line-height: 16px;
 
-        color: #999999;
+        color: $color-text--secondary;
 
         @include mq(xl) {
             font-size: 14px;
