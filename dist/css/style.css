@@ -713,7 +713,7 @@ p {
   .features__first {
     float: left;
     margin-top: 161px;
-    margin: 0 auto;
+    margin-left: 128px;
   }
   .features__first .features__img {
     margin: 0 auto;
