@@ -150,7 +150,8 @@
     }
 
     @include mq(md) {
-        margin-left: 342px;
+        // margin-left: 342px;
+        margin: 0 auto;
     }
 
 }

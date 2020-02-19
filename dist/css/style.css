@@ -776,7 +776,7 @@ p {
 
 @media (min-width: 768px) {
   .features__img {
-    margin-left: 342px;
+    margin: 0 auto;
   }
 }
 
