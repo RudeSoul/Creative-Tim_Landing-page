@@ -81,7 +81,8 @@
     @include mq(xl) {
         float: left;
         margin-top: 161px;
-        margin-left: 128px;
+        // margin-left: 128px;
+        margin: 0 auto;
 
         .features__img {
             margin: 0 auto;

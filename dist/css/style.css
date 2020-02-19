@@ -713,7 +713,7 @@ p {
   .features__first {
     float: left;
     margin-top: 161px;
-    margin-left: 128px;
+    margin: 0 auto;
   }
   .features__first .features__img {
     margin: 0 auto;
@@ -1103,7 +1103,7 @@ p {
 
 @media (min-width: 768px) {
   .footer {
-    top: 4116px;
+    top: 4034px;
     margin-left: 39px;
   }
 }
