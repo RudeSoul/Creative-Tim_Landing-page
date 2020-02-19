@@ -11,6 +11,7 @@
 
     @include mq(md) {
         padding-bottom: 82px;
+        top: 528px;
     }
 
     @include mq(xl) {
