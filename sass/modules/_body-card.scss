@@ -76,6 +76,12 @@
 // .features {
 
 .features {
+    @include mq(md) {
+
+        width: 784px;
+        margin: 0 auto;
+    }
+
     @include mq(xl) {
         width: 1108px;
         margin: 0 auto;
