@@ -964,6 +964,10 @@ p {
   color: #999999;
 }
 
+.our-team__description p a {
+  color: #9c27b0;
+}
+
 .our-team__social-link {
   margin-top: 48px;
   text-align: center;

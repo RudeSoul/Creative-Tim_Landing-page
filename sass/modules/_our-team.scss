@@ -158,6 +158,10 @@
         text-align: center;
 
         color: $color-text--secondary;
+
+        a {
+            color: $btn-purple;
+        }
     }
 }
 
